@@ -1,0 +1,32 @@
+.logo {
+    width: auto;
+    height: 40px;
+    padding-left: 20px;
+
+
+}
+.buscador {
+    width: 860px;
+    height: 40px;
+    border-style: none;
+    align-content: center;
+    color: lightgray;
+    margin-right: 210px;
+    padding-left: 20px;
+    opacity: 0.5;
+
+
+}
+.barra {
+    background-color: white;
+    width: auto;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    font-weight: 200;
+}
+.lupa {
+    margin-left: auto;
+    opacity: 0.1;
+
+}
