@@ -1,15 +1,18 @@
 
 .App-header {
   background-color: lightgray;
-  min-height: 100vh;
+  height: 80px;
   font-size: calc(10px + 2vmin);
 }
-.barraSeparadora{
-  padding-left: 30px;
-  padding-bottom: 10px;
-  font-size: 40px;
-  color: lightgray;
+.body{
+  background-color: lightgray;
+  display: flex;
+  align-items: center;
+  padding: 50px;
+  justify-content: center; 
+
 }
+
 
 
 

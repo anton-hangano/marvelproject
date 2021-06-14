@@ -30,3 +30,9 @@
     opacity: 0.1;
 
 }
+.barraSeparadora{
+    padding-left: 30px;
+    padding-bottom: 10px;
+    font-size: 40px;
+    color: lightgray;
+  }
