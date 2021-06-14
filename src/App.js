@@ -1,4 +1,5 @@
 import './App.css';
+import Character from './components/elements/body/main';
 import Navbar from './components/elements/header/navbar';
 
 function App() {
@@ -8,8 +9,11 @@ function App() {
       <header className="App-header">
       <Navbar></Navbar>
       </header>
-      
+      <main>
+      <Character></Character>
+      </main>
     </div>
+  
   );
 }
 
