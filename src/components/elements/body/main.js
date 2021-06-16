@@ -13,8 +13,10 @@ function Personajes() {
   React.useEffect(()=>{
     const API_PUB = process.env.REACT_APP_API_PUB_KEY;
     const URL_KEY = `https://gateway.marvel.com/v1/public/characters?ts=${ts}&apikey=${API_PUB}&hash=${hash}`;
-    axios.get(URL_KEY).then(characters=>{
-    setCharacters(characters.data.data.results)
+    
+    axios.get(URL_KEY)
+    .then(characters=>{
+    setCharacters(characters.data.data.results.slice(0,8));
     }).catch(error=>console.log(error))
   },[])
 
@@ -24,12 +26,11 @@ function Personajes() {
     <div className="containerGalery">
      <div className="container">
         {character.map(personaje=>(
-       
      <div key={personaje.id}>
       <div className="card">
         <img src={`${personaje.thumbnail.path}.${personaje.thumbnail.extension}`} className="imagen" alt=""/>
           <div className="namePosition">
-          <p className="name">{personaje.name} </p>
+          <p className="name">{personaje.name}</p>
           </div>
       </div> 
      </div> 
