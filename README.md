@@ -21,6 +21,9 @@ La manera que se mostrarán las búsquedas serán en forma de cards y modales pa
 
 <h2>Log de commits realizados </h2>
 
+- commit e5b596cf925167ba16212cc9891dad9751fb1053 - Wed Jun 16 2021
+
+fix: reduccion resultados fetch
 
 - commit 866db72cae52a330719d59daecf614c8bc3e4a21 -  Mon Jun 14 2021
 
