@@ -20,25 +20,25 @@ function Personajes() {
     }).catch(error=>console.log(error))
   },[])
 
- console.log(character)
-
   return (
-    <div className="containerGalery">
-     <div className="container">
+    <section className="containerGalery">
+     <article className="container">
         {character.map(personaje=>(
-     <div key={personaje.id}>
-      <div className="card">
-        <img src={`${personaje.thumbnail.path}.${personaje.thumbnail.extension}`} className="imagen" alt=""/>
+     <div key={personaje.id} className="imageContainer" 
+     style={{background:  `linear-gradient(rgba(255,255,255,0.1) 70%,rgba(0,0,0,0.5) 100%) ,
+      linear-gradient(228deg, rgba(0,0,0,0.5) 10%, rgba(0,0,0,0.1) 30%) ,
+      url(${personaje.thumbnail.path}.${personaje.thumbnail.extension}) 
+      `,backgroundSize: "cover"}}>
+        {/* <img src={`${personaje.thumbnail.path}.${personaje.thumbnail.extension}`} className="imagen" alt=""/> */}
           <div className="namePosition">
-          <p className="name">{personaje.name}</p>
+            <p className="name">{personaje.name}</p>
           </div>
-      </div> 
      </div> 
      ))
         }
-    </div>
+    </article>
 
-    </div>
+    </section>
   );
 }
 
