@@ -1,0 +1,43 @@
+.container{
+    display: grid; 
+  grid-template-columns: 1.2fr 1.2fr 1.2fr 1.2fr; 
+  grid-template-rows: 1.7fr 1.7fr; 
+  gap: 0px 0px; 
+  grid-template-areas: 
+    ". . . ."
+    ". . . .";
+    margin-top: 50px;
+    justify-items: center;
+}
+.imageContainer{
+    position: relative;
+    width: 320px;  
+    height: 520px;
+    margin-left: 20px;
+    margin-bottom: 35px;
+    background-position: center;
+    transition: transform .2s;
+
+}
+.imageContainer:hover{
+    transform: scale(1.1);
+   
+    box-shadow: inset -15px 15px 48px -6px #827879, 
+    inset 0px -80px 72px -44px #0C0C0C;
+    
+}
+
+.name{
+    color: white;
+}
+.namePosition{
+    position: absolute;
+    font-weight: 600;
+    font-size: 25px;
+    top: 78%;
+    left: 7%;
+    width:290px;
+}
+
+
+
