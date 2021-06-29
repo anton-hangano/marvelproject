@@ -7,7 +7,7 @@
 <h1> Objetivos: </h1>
 
 - Las peticiones se tienen que realizar a la siguiente URL: http://gateway.marvel.com/v1/  ☑️
-- El buscador tiene que tener la posibilidad de buscar los nombres de los Personajes de Marvel en el input pero también por URL.
+- El buscador tiene que tener la posibilidad de buscar los nombres de los Personajes de Marvel en el input pero también por URL.  ☑️
 
 - Cuando se entra la primera vez en la app web sin ningún personaje en la URL tiene que mostrar un personaje aleatorio y así por cada vez que vuelva a recargar la página.
 
