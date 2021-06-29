@@ -21,6 +21,10 @@ La manera que se mostrarán las búsquedas serán en forma de cards y modales pa
 
 <h2>Log de commits realizados </h2>
 
+- commit 0ae10bc66a18be0494b731993ab907861d0d193d - Sun Jun 27 2021
+
+feat:search bar and css effects
+
 - commit e5b596cf925167ba16212cc9891dad9751fb1053 - Wed Jun 16 2021
 
 fix: reduccion resultados fetch
