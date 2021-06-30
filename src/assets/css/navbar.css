@@ -1,0 +1,50 @@
+.logo {
+    width: 110px;
+    height: 50px;
+    margin: 20px;
+    margin-left: -180px;
+    background: url(../../components/elements/header/marvel-logo.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    position: absolute;
+
+}
+.buscador {
+    width: 1020px;
+    height: 40px;
+    border-style: none;
+    color: black;
+    margin-right: 350px;
+    margin-left: 40px;
+    padding-left: 20px;
+    opacity: 0.5;
+
+
+}
+.barra {
+    background-color: white;
+    width: auto;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    font-weight: 200;
+    padding-left: 200px;
+}
+.lupa {
+    width: 30px;
+    height: 30px;
+    opacity: 0.1;
+    margin-left: 40px;
+    background: url(../../components/elements/header/lupa.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+
+
+}
+.barraSeparadora{
+    padding-left: 30px;
+    padding-bottom: 10px;
+    font-size: 40px;
+    color: lightgray;
+  }
