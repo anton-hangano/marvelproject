@@ -61,7 +61,7 @@ class App extends React.Component {
       characters={this.state.characters}
       onCharacterSelect={this.onCharacterSelect}
       />
-
+      <CharacterDetails selectedCard={this.state.selectedCard} />
 
     </div>
   );
