@@ -3,7 +3,7 @@
     height: 50px;
     margin: 20px;
     margin-left: -180px;
-    background: url(../header/marvel-logo.png);
+    background: url(../../components/elements/header/marvel-logo.png);
     background-size:cover;
     background-repeat: no-repeat;
     position: absolute;
@@ -35,7 +35,7 @@
     height: 30px;
     opacity: 0.1;
     margin-left: 40px;
-    background: url(../header/lupa.svg);
+    background: url(../../components/elements/header/lupa.svg);
     background-size: cover;
     background-repeat: no-repeat;
     position: absolute;

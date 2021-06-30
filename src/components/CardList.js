@@ -1,6 +1,6 @@
 import React from "react";
 import CharacterCard from "./marvelCard";
-import './CardList.css'
+import './../assets/css/CardList.css'
 
 const cardList = ({ characters, onCharacterSelect }) => {
   const renderList = characters.map((chr,i) => {  

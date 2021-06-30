@@ -1,6 +1,6 @@
 import React from "react";
-import './../header/navbar.css'
-import './../../CardList.css'
+import './../../../assets/css/navbar.css'
+import './../../../assets/css/CardList.css'
 
 class SearchBar extends React.Component {
   state = { term: "" };
@@ -26,6 +26,7 @@ class SearchBar extends React.Component {
           className="buscador"
           type="text"
           placeholder="buscar"
+          required
           value={this.state.term}
           onChange={(e) => this.setState({term : e.target.value})}
         />

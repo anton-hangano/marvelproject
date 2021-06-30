@@ -1,6 +1,6 @@
 import React from "react";
-import './CardList.css'
-import './elements/header/navbar.css'
+import './../assets/css/CardList.css'
+import './../assets/css/navbar.css'
 
 const CharacterCard = ({ character, onCharacterSelect }) => {
   const image = character.thumbnail.path;
