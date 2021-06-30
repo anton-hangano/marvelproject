@@ -1,71 +1,49 @@
-# Getting Started with Create React App
+#marvelproject
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
 
-In the project directory, you can run:
+<h2>Proyecto de buscador utilizando React-app con un API </h2> 
 
-### `yarn start`
+<h1> Objetivos: </h1>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- Las peticiones se tienen que realizar a la siguiente URL: http://gateway.marvel.com/v1/  ☑️
+- El buscador tiene que tener la posibilidad de buscar los nombres de los Personajes de Marvel en el input pero también por URL.☑️
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- Cuando se entra la primera vez en la app web sin ningún personaje en la URL tiene que mostrar un personaje aleatorio y así por cada vez que vuelva a recargar la página.☑️
 
-### `yarn test`
+- La búsqueda tiene que contemplar buscar por similitudes de texto y parecidos de nombre, es decir, con solo buscar “spider” debería de renderizar todas las posibilidades y matches que abarcan.☑️
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- La búsqueda tiene que tener la posibilidad de buscar por comic directamente también y si es un link que viene directamente de la página de marveltiene que visualizar un preview del cómic.
+La manera que se mostrarán las búsquedas serán en forma de cards y modales para el detalle del personaje con sus comics.☑️
+- Al clickear un card debería ir al detalle del personaje y mostrar un listado de sus cómics ordenados por fecha.
+- El buscador de marvel tiene que contemplar que por la búsqueda de la URL se pueda hacer búsqueda de los personajes mediante query strings en la url del sitio,y debe renderizar el card que al clickearse solo debe de aparecer el comic que fue buscado(este feature debe de soportar más de un cómic por URL, así como más de un personaje)
+- La búsqueda tiene que poder guardarse en un listado de favoritos y que persista en el browser para que pueda ser usada en un futuro solo dandole click a la lista de búsquedas favoritas el cual tiene la estrella en la esquina superior derecha del input de búsqueda.
 
-### `yarn build`
+<h2>Log de commits realizados </h2>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- commit e5b596cf925167ba16212cc9891dad9751fb1053 - Wed Jun 16 2021
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+fix: reduccion resultados fetch
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- commit 866db72cae52a330719d59daecf614c8bc3e4a21 -  Mon Jun 14 2021
 
-### `yarn eject`
+feat:imagenes cargadas junto con el nombre
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- commit 6f7d0da8ae905eb134f430098142f1bfa941118b -  Mon Jun 14 2021
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+fix:API with characters
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- commit 9f976316036489e9e5ebbe02f3e235a81a965ccc -  Tue Jun 8 2021
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Feat: feat:barra navegadora
 
-## Learn More
+- commit: 02f2f9f48cee4435e3b121c92da932e3da1cb6fd - Sat Jun 5 2021
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- commit: 2420dc38a3f3b7fbbc87e50ba412b43f4b03542b
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Feat:setup project
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# marvelproject

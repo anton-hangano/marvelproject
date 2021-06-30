@@ -1,0 +1,18 @@
+
+.App-header {
+  background-color: lightgray;
+  height: 80px;
+  font-size: calc(10px + 2vmin);
+}
+.body{
+  background-color: lightgray;
+  display: flex;
+  align-items: center;
+  padding: 50px;
+  justify-content: center; 
+
+}
+
+
+
+
