@@ -1,5 +1,4 @@
 import React from "react";
-import { Element } from "react-scroll";
 import './../assets/css/CharacterCard.css'
 
 const CharacterDetails = ({ selectedCard }) => {
